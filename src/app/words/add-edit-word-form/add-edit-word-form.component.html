@@ -1,0 +1,8 @@
+<form [formGroup]="wordForm" (ngSubmit)="onSubmit()">
+  <label for="original">
+    <input type="text" id="original" formControlName="original" />
+  </label>
+  <label for="translation">
+    <input type="text" id="translation" formControlName="translation" />
+  </label>
+</form>
